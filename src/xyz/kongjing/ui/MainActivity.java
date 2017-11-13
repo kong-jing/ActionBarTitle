@@ -1,7 +1,7 @@
 
-package org.gaochun.ui;
+package xyz.kongjing.ui;
 
-import org.gaochun.widget.TitleActivity;
+import xyz.kongjing.widget.TitleActivity;
 
 import android.os.Bundle;
 

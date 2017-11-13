@@ -15,9 +15,7 @@
  *     1.0.0: First created this class.
  *
  ******************************************************************************/
-package org.gaochun.widget;
-
-import org.gaochun.ui.R;
+package xyz.kongjing.widget;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -31,8 +29,8 @@ import android.widget.Toast;
 
 
 /**
- * @author gao_chun
- * 自定义标题栏
+ * @description 自定义标题栏
+ * @author kongjing from gao_chun
  */
 public class TitleActivity extends Activity implements OnClickListener{
 
@@ -51,11 +49,11 @@ public class TitleActivity extends Activity implements OnClickListener{
 
 
     private void setupViews() {
-        super.setContentView(R.layout.activity_title);
-        mTitleTextView = (TextView) findViewById(R.id.text_title);
-        mContentLayout = (FrameLayout) findViewById(R.id.layout_content);
-        mBackwardbButton = (Button) findViewById(R.id.button_backward);
-        mForwardButton = (Button) findViewById(R.id.button_forward);
+        super.setContentView(xyz.kongjing.ui.R.layout.activity_title);
+        mTitleTextView = (TextView) findViewById(xyz.kongjing.ui.R.id.text_title);
+        mContentLayout = (FrameLayout) findViewById(xyz.kongjing.ui.R.id.layout_content);
+        mBackwardbButton = (Button) findViewById(xyz.kongjing.ui.R.id.button_backward);
+        mForwardButton = (Button) findViewById(xyz.kongjing.ui.R.id.button_forward);
     }
 
     /**
@@ -161,11 +159,11 @@ public class TitleActivity extends Activity implements OnClickListener{
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case R.id.button_backward:
+            case xyz.kongjing.ui.R.id.button_backward:
                 onBackward(v);
                 break;
 
-            case R.id.button_forward:
+            case xyz.kongjing.ui.R.id.button_forward:
                 onForward(v);
                 break;
 
