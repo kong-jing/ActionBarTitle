@@ -15,7 +15,7 @@
  *     1.0.0: First created this class.
  *
  ******************************************************************************/
-package xyz.kongjing.widget;
+package xyz.kongjing.base;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -26,6 +26,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import xyz.kongjing.R;
 
 
 /**
@@ -49,11 +51,11 @@ public class TitleActivity extends Activity implements OnClickListener{
 
 
     private void setupViews() {
-        super.setContentView(xyz.kongjing.ui.R.layout.activity_title);
-        mTitleTextView = (TextView) findViewById(xyz.kongjing.ui.R.id.text_title);
-        mContentLayout = (FrameLayout) findViewById(xyz.kongjing.ui.R.id.layout_content);
-        mBackwardbButton = (Button) findViewById(xyz.kongjing.ui.R.id.button_backward);
-        mForwardButton = (Button) findViewById(xyz.kongjing.ui.R.id.button_forward);
+        super.setContentView(R.layout.activity_title);
+        mTitleTextView = (TextView) findViewById(R.id.text_title);
+        mContentLayout = (FrameLayout) findViewById(R.id.layout_content);
+        mBackwardbButton = (Button) findViewById(R.id.button_backward);
+        mForwardButton = (Button) findViewById(R.id.button_forward);
     }
 
     /**
@@ -159,11 +161,11 @@ public class TitleActivity extends Activity implements OnClickListener{
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case xyz.kongjing.ui.R.id.button_backward:
+            case R.id.button_backward:
                 onBackward(v);
                 break;
 
-            case xyz.kongjing.ui.R.id.button_forward:
+            case R.id.button_forward:
                 onForward(v);
                 break;
 
