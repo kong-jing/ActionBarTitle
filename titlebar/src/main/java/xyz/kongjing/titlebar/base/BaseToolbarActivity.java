@@ -1,4 +1,4 @@
-package xyz.kongjing.base;
+package xyz.kongjing.titlebar.base;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;

@@ -1,21 +1,4 @@
-/*******************************************************************************
- *
- * Copyright (c) Weaver Info Tech Co. Ltd
- *
- * TitleActivity
- *
- * app.client.TitleActivity.java
- * TODO: File description or class description.
- *
- * @author: gao_chun
- * @since:  2014-9-03
- * @version: 1.0.0
- *
- * @changeLogs:
- *     1.0.0: First created this class.
- *
- ******************************************************************************/
-package xyz.kongjing.base;
+package xyz.kongjing.titlebar.base;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -26,9 +9,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import xyz.kongjing.R;
-
+import xyz.kongjing.titlebar.R;
 
 /**
  * @description 自定义标题栏

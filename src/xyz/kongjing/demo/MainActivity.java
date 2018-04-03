@@ -1,12 +1,14 @@
 
-package xyz.kongjing.ui;
+package xyz.kongjing.demo;
 
 import xyz.kongjing.R;
-import xyz.kongjing.base.BaseToolbarActivity;
+import xyz.kongjing.titlebar.base.BaseToolbarActivity;
 
 import android.os.Bundle;
 
-
+/**
+ * Demo 主界面
+ */
 public class MainActivity extends BaseToolbarActivity {
 
     @Override
