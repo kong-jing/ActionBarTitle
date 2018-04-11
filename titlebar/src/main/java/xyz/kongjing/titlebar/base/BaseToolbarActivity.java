@@ -7,9 +7,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import xyz.kongjing.R;
-
+import xyz.kongjing.titlebar.R;
 
 /**
  * @description 基础的 toolbar 工具类

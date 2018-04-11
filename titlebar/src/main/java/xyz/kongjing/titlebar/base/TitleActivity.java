@@ -141,17 +141,12 @@ public class TitleActivity extends Activity implements OnClickListener{
     @Override
     public void onClick(View v) {
 
-        switch (v.getId()) {
-            case R.id.button_backward:
-                onBackward(v);
-                break;
-
-            case R.id.button_forward:
-                onForward(v);
-                break;
-
-            default:
-                break;
+        int i = v.getId();
+        if (i == R.id.button_backward) {
+            onBackward(v);
+        } else if (i == R.id.button_forward) {
+            onForward(v);
+        } else {
         }
     }
 }
